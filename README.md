@@ -3,14 +3,14 @@
 ## How to use
 
 ```shell
-docker pull oursky/flowable-extend-base:v1.0.0
-docker run --rm -it oursky/flowable-extend-base:v1.0.0 sh
+docker pull oursky/flowable-extend-base:v1.0.2
+docker run --rm -it oursky/flowable-extend-base:v1.0.2 sh
 ```
 
 ## Dockerfile for create flowable-extend app
 
 ```dockerfile
-FROM oursky/flowable-extend-base:v1.0.0
+FROM oursky/flowable-extend-base:v1.0.2
 
 WORKDIR /app
 
